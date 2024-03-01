@@ -1,0 +1,10 @@
+wordpress:
+  database:
+    host: mariadb-service
+    user: hng_wordpress
+    dbname: hng11_wordpress
+    configmap:
+      name: wordpress-config
+    secret:
+      name: wordpress-secrets
+
